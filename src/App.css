@@ -11,14 +11,14 @@
 
 /* ─── Page ───────────────────────────────────────────────────────────────────── */
 .page {
-  height: 100vh;              /* exact full screen height */
+  position: fixed;          /* 🔥 forces full screen */
+  inset: 0;                 /* top:0 left:0 right:0 bottom:0 */
   display: flex;
-  justify-content: center;    /* horizontal center */
-  align-items: center;        /* vertical center */
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(135deg, #fef9ee 0%, #f0fdf4 50%, #eff6ff 100%);
   font-family: 'Nunito', sans-serif;
 }
-
 
 /* ─── Card ───────────────────────────────────────────────────────────────────── */
 .card {
