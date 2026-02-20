@@ -79,9 +79,9 @@ function GroceryItem({ item, onDelete, onUpdate, onToggle }) {
 
 // ─── Initial Data ─────────────────────────────────────────────────────────────
 const INITIAL = [
-  { id: 1, name: "🥑 Avocados", checked: false },
-  { id: 2, name: "🥛 Whole Milk", checked: false },
-  { id: 3, name: "🍞 Sourdough Bread", checked: true },
+  { id: 1, name: " Avocados", checked: false },
+  { id: 2, name: " Whole Milk", checked: false },
+  { id: 3, name: " Sourdough Bread", checked: true },
 ];
 
 // ─── App ─────────────────────────────────────────────────────────────────────
