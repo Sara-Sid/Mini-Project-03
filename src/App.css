@@ -32,9 +32,9 @@
 
 /* ─── Card Header ────────────────────────────────────────────────────────────── */
 .card__header {
-  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+  background: linear-gradient(135deg, #f884dd 0%, #f884dd 100%);
   padding: 28px 28px 22px;
-  color: #fff;
+  color: #f884dd;
 }
 
 .card__title {
