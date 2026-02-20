@@ -34,7 +34,7 @@
 .card__header {
   background: linear-gradient(135deg, #f884dd 0%, #f884dd 100%);
   padding: 28px 28px 22px;
-  color: #f884dd;
+  color: #fcf7fb;
 }
 
 .card__title {
@@ -73,11 +73,11 @@
 }
 
 .add-input:focus {
-  border-color: #22c55e;
+  border-color: #c5229f;
 }
 
 .add-btn {
-  background: linear-gradient(135deg, #22c55e, #16a34a);
+  background: linear-gradient(135deg, #c52289, #a3167d);
   color: #fff;
   border: none;
   border-radius: 12px;
@@ -123,7 +123,7 @@
 
 .grocery-item.checked {
   background: #f0fdf4;
-  border-color: #86efac;
+  border-color:#f884dd;
 }
 
 /* ─── Check Button ────────────────────────────────────────────────────────────── */
@@ -132,7 +132,7 @@
   height: 22px;
   border-radius: 6px;
   flex-shrink: 0;
-  border: 2px solid #94a3b8;
+  border: 2px solid #d82626;
   background: transparent;
   cursor: pointer;
   display: flex;
@@ -142,8 +142,8 @@
 }
 
 .check-btn--active {
-  border-color: #22c55e;
-  background: #22c55e;
+  border-color: #f884dd;
+  background: #f884dd;
 }
 
 .check-btn span {
